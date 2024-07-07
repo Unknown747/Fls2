@@ -1,22 +1,19 @@
 {
-  "name": "temp",
-  "version": "1.0.0",
+  "name": "rescue_wallet_with_flashbots",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-  "start": "ts-node main.ts"   
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jasonrale",
   "license": "ISC",
   "dependencies": {
-    "@flashbots/ethers-provider-bundle": "^0.4.3",
-    "dotenv": "^16.0.0",
-    "ethers": "^5.6.2"
+    "@flashbots/ethers-provider-bundle": "^0.6.2",
+    "ethers": "^5.7.2"
   },
-  "devDependencies": {
-    "@types/node": "^16.11.0",
-    "ts-node": "^10.3.0",
-    "tslib": "^2.3.1",
-    "typescript": "^4.4.4"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonrale/rescue_wallet_with_flashbots.git"
   }
 }
